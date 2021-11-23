@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #fca9ff;
+  width: 100%;
+  line-height: 15vh;
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  letter-spacing: 15px;
+
+  font-family: "Abril Fatface", cursive;
+  text-shadow: 0 5px 0 rgba(27, 25, 27, 0.521), 0 6px 0 rgba(4, 5, 14, 0.466),
+    0 7px 0 rgba(24, 23, 23, 0.918), 0 8px 0 rgba(27, 26, 26, 0.973);
+}
+section {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 163, 253);
+}
+.gamearea {
+  width: 50%;
+  height: 400px;
+  padding: 0px, 0;
+  background-color: rgb(253, 170, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 9px -6px black;
+  border-radius: 20px;
+}
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  /* font-family: "Lobster", cursive; */
+}
+input {
+  width: 40%;
+  padding: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 25px;
+  outline: black;
+  border: solid rgb(236, 126, 126);
+  background-color: rgb(247, 238, 199);
+  color: black;
+  margin: 2.5rem, 0;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  /* text-transform: lowercase; */
+}
+button {
+  display: flexbox;
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  color: rgb(116, 13, 47);
+  background-color: rgb(196, 179, 176);
+  margin: 5px;
+  padding: 4px, 4px;
+  display: block;
+  /* inset-block: inherit; */
+  margin-inline: auto;
+  width: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 8px 6px -6px black;
+}
+button.btn:hover {
+  color: rgb(102, 15, 98);
+  background-color: whitesmoke;
+  letter-spacing: 0.125rem;
+  word-spacing: 0.2rem;
+}
+
+button.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1rem, 2rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+button.btn1:hover {
+  color: rgb(102, 15, 98);
+  background-color: whitesmoke;
+  letter-spacing: 0.125rem;
+  word-spacing: 0.2rem;
+}
+button.btn1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1rem, 2rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+button.btn1 {
+  font-weight: 900;
+}
+.hidden {
+  display: none;
+}
+.score {
+  background-color: rgb(159, 247, 101);
+}
+.score ul {
+  overflow: auto;
+}
+.score li {
+  float: left;
+  list-style: none;
+  padding: 3px 3px;
+  font-size: x-large;
+  color: crimson;
+  margin-left: 13px;
+  font-weight: bold;
+}
+.current {
+  float: right;
+  padding-right: 12px;
+  font-size: 30px;
+  color: crimson;
+  font-weight: bold;
+  padding-top: 1px;
+}
